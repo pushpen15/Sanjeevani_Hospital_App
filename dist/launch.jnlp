@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>SanjeevaniApp</title>
+        <vendor>User</vendor>
+        <homepage href=""/>
+        <description>SanjeevaniApp</description>
+        <description kind="short">SanjeevaniApp</description>
+    <icon href="hms.png" kind="default"/>
+</information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="SanjeevaniApp.jar" main="true"/>
+    <jar href="lib/ojdbc6.jar"/>
+</resources>
+    <application-desc main-class="sanjeevaniapp.gui.SplashScreenFrame">
+    </application-desc>
+</jnlp>
